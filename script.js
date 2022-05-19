@@ -1,5 +1,6 @@
-let timeBtn=document.querySelectorAll('.controle-panel .bottom h3');
-const boxCon=document.querySelector('.boxes')
+const timeBtn=document.querySelectorAll('.controle-panel .bottom h2');
+const boxCon=document.querySelector('.boxes');
+
 fetch('https://raw.githubusercontent.com/christopherjael/time-tracking-dashboard--solution/master/data.json').then((res)=>{
     return res.json();
 }).then((d)=>{
@@ -25,13 +26,14 @@ function getClicked(array){
                     createBoxes(array,'weekly','week');
                     break;
             }
-            if(btn.classList.contains('daily')){
-                //createBoxes(array,'daily','day')
-            }
+            btn.classList.add('active');
         })
     })
 }
 function createBoxes(array,time,timeTitle){
+    timeBtn.forEach((btn)=>{
+        btn.classList.remove('active')
+    })
     array.forEach((el)=>{
         let box=`
         <div class="box ${el.title.toLowerCase()}">

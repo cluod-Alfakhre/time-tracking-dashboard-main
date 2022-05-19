@@ -19,8 +19,8 @@ img{
     color: white;
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 1rem;
-    width: 1082px;
+    gap: 2rem;
+    width: 69.5rem;
 }
 .controle-panel{
     background-color: hsl(235, 46%, 20%);
@@ -31,41 +31,45 @@ img{
 }
 .controle-panel .top{
     padding: 2rem;
-    background-color: hsl(264, 64%, 52%);
+    background-color: hsl(246deg, 80%, 60%);
     border-radius: 14px;
 }
 .controle-panel .top p{
     color: hsl(236, 100%, 87%);
 }
 .controle-panel .img{
-    margin-bottom: 2rem;
+    margin-bottom: 43px;
 }
 .controle-panel img{
-    width: 70px;
+    width: 78px;
     border: solid 2px white;
     border-radius: 50%;
 }
 .controle-panel .bottom{
-    padding: 2rem;
+    padding: 1.6rem 1.8rem;
     display: grid;
-    gap: 10px;
+    gap: 25px;
 }
-.controle-panel .bottom h3{
+.controle-panel .bottom h2{
     cursor: pointer;
-    color: hsl(236, 100%, 87%);
+    font-size: 18px;
+    color: hsl(235deg, 45%, 61%);
     font-weight: 400;
 }
-.controle-panel .bottom h3:hover{
+.controle-panel .bottom h2.active{
+    color: white;
+}
+.controle-panel .bottom h2:hover{
     color: white;
 }
 .controle-panel .name{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .boxes{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    gap: 1rem;
+    gap: 2rem;
 }
 .box{
     display: grid;
@@ -143,10 +147,10 @@ img{
     fill: white;
 }
 .box .text h3{
-    font-size: 40px;
+    font-size: 56px;
     padding-left: 1rem;
     margin-bottom: 5px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .box .content p{
     font-size: 16px;
