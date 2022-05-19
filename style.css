@@ -146,7 +146,7 @@ img{
 .box .header svg:hover .dot{
     fill: white;
 }
-.box .text h3{
+.box .text .content h3{
     font-size: 56px;
     padding-left: 1rem;
     margin-bottom: 5px;
