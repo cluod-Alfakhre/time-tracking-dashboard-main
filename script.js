@@ -40,7 +40,7 @@ function createBoxes(array,time,timeTitle){
             <div class="img"></div>
             <div class="text">
             <div class="header">
-                <h4>${el.title}</h4>
+                <h3>${el.title}</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="5" ><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd" class="dot"/></svg>
             </div>
             <div class="content">
